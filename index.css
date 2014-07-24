@@ -1,0 +1,37 @@
+#overlay{
+  display: none;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 10;
+}
+#alertbox{
+  display: none; 
+  position: fixed;
+  background: #000;
+  border-radius: 7px;
+  width: 550px;
+  z-index: 10;
+}
+#alertbox > div{
+  margin:8px;
+  background: #FFF;
+}
+#alertbox > div > #alertheader{
+  background: #666;
+  padding: 10px;
+}
+#alertbox > div > #alertbody{
+  background: #333;
+  padding: 20px;
+  color: #CCC;
+  
+}
+#alertbox > div > #alertfooter{
+  background: #666;
+  padding: 20px;
+  text-align: right;
+}
